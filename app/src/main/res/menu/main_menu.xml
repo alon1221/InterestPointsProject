@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_settings" android:title="Settings"/>
+    <item android:id="@+id/action_delete_favs" android:title="delete favorites"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="srch"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/action_search_loc"
+        android:icon="@drawable/ic_location_searching_white_24dp"
+        android:title="srchByLoc"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/action_show_favs_on_map"
+        android:title="Show Favs On Map">
+
+    </item>
+</menu>
